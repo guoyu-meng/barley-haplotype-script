@@ -1,0 +1,4 @@
+total_window	2085
+total_wild	202970
+total_domes	25107
+total_share	7676

@@ -1,0 +1,3 @@
+
+To calculate the contribution for a certain domesticated population from wild barley, firstly use "03.statistics_of_haplotype_matrix/04.diversity/keep.pl" to extract the certain domesticated population and wild barley from the haplotype matrix, then run the programme in 01, 02 and 03. 
+

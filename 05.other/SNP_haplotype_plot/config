@@ -1,0 +1,23 @@
+
+set terminal pdfcairo enhanced font "Times-New-Roman,4"
+set output "out.pdf"
+
+#
+
+unset key
+unset colorbox
+unset ytics
+unset xtics
+set noborder
+
+
+#transform the input format: 0 same as genome reference; 1 different from genome reference; 2 heterozygous genotype; 3 missing genotype; 4 blank region among populations
+set palette defined ( 0 "#CCAA00", 1 "#194D00", 2 "#0000FF", 3 "#FF0000", 4 "#FFFFFF")
+
+######################################################################################
+
+set cbrange [0:4]
+
+set yran [0:400]
+
+plot 'plot.txt' using 1:2:3 with image pixels

@@ -1,0 +1,7 @@
+chr1H
+chr2H
+chr3H
+chr4H
+chr5H
+chr6H
+chr7H
